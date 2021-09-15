@@ -6,7 +6,7 @@ var data = JSON.stringify({
   "summary": "...",
   "sections": [
     {
-      "activityTitle": "Mọi người gửi report ngày hôm nay nhé !",
+      "activityTitle": "Mọi người gửi report ngày hôm nay nhé " + new Date().toLocaleDateString('en-GB') + " !!!",
       "activitySubtitle": "On Project Trames - Auto send",
       "activityImage": "https://en.gravatar.com/userimage/180126290/6c0a05a131ad0c17b4bbf43a5c3c74ea.png",
       "facts": [
